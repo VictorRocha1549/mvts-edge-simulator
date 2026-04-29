@@ -9,4 +9,3 @@ Hito de éxito: Lograr que la terminal muestre que los JSON se están publicando
 
 Ventaja: Es el rol ideal para quien prefiera trabajar rápido en la consola y no lidiar con bases de datos ni diseños visuales.
 
-2. Arquitecto Backend (El "Cerebro" del Si
