@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: mvts-rabbitmq
+    ports:
+      - "5672:5672"   # Puerto interno de comunicación
+      - "15672:15672" # Puerto visual (Google Chrome)
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
